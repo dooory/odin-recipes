@@ -1,0 +1,41 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    margin: 0;
+    background-color: #0e0e0e;
+}
+
+.title-container {
+    filter: drop-shadow(0 0 3px currentcolor);
+    text-align: center;
+    color: #F4E7E1;
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+
+.list-container {
+    text-align: center;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+li a {
+    display: inline-block;
+
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+
+    border: 1px solid #F4E7E1;
+    border-radius: 7px;
+
+    filter: drop-shadow(0 0 3px #FF9B45);
+
+    font-size: 30px;
+    background-color: #d5461b7a;
+    color: #F4E7E1;
+    text-decoration: none;
+}
