@@ -11,6 +11,7 @@ html {
     background-color: #0e0e0e;
     background-size: cover;
     background-position: left;
+    background-size: contain;
     color: #F4E7E1;
 }
 
