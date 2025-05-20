@@ -1,18 +1,23 @@
-* {
-    box-sizing: border-box;
-}
-
 body, html {
     height: 100%;
 }
 
+body {
+    padding-bottom: 10px;
+}
+
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
     background-color: #0e0e0e;
     background-size: cover;
     background-position: left;
     color: #F4E7E1;
+}
+
+#top {
+    color: transparent;
+    font-size: 0;
+    background-color: transparent;
 }
 
 .containers {
@@ -30,12 +35,44 @@ html {
     background-color: #963316;
 }
 
+.homepage {
+    text-align: center;
+    font-size: 30px;
+    width: 180px;
+    height: 60px;
+    padding: 3px;
+    padding-top: 20px;
+}
+
 .description {
-    padding: 1px 0 10px 10px;
+    padding: 1px 10px 15px 16px;
     width: 25%;
 }
 
 .ingredients {
     padding: 5px 0 16px 25px;
     width: 40%;
+}
+
+.ingredients ul li {
+    margin-bottom: 10px;
+}
+
+.instructions {
+    padding: 5px 50px 16px 25px;
+    width: 40%;
+    display: inline-block;
+}
+
+.instructions ol li {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #F4E7E1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
