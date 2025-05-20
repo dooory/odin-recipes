@@ -3,5 +3,13 @@ html {
     height: 100%;
     margin: 0;
     background-color: #0e0e0e;
+    background-size: cover;
     color: #F4E7E1;
+}
+
+.description {
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+    background-color: #963316;
 }
