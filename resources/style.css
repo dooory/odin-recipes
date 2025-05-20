@@ -32,10 +32,8 @@ li a {
     border: 1px solid #F4E7E1;
     border-radius: 7px;
 
-    filter: drop-shadow(0 0 3px #FF9B45);
-
     font-size: 30px;
-    background-color: #d5461b7a;
+    background-color: #963316;
     color: #F4E7E1;
     text-decoration: none;
 }
